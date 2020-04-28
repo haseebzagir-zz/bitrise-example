@@ -17,5 +17,9 @@ class bitriseexampleTests: XCTestCase {
     func testAdd() {
         XCTAssertEqual(a + b, 30)
     }
+    
+    func testSubtract() {
+        XCTAssertEqual(a - b, -10)
+    }
 
 }
